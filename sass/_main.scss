@@ -1,0 +1,147 @@
+$footer: 158px;
+.main{
+  background-color: #ccc;
+  width: 250px;
+  height: 100%;
+  float: left;
+  &_root{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer;
+    clear: both;
+  }
+  &_froot{
+    height: $footer;
+  }
+  &_inner{
+    padding: 25px 0px 0px 0px;
+  }
+  &_logo{
+    display: block;
+    width: 155px;
+    height: 86px;
+    margin: 0px auto 0px auto;
+    background: url(../image/logo.png) no-repeat;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  &_footer {
+    clear: both;
+    position: relative;
+    height: $footer;
+    background-color: #fff;
+    text-align: center;
+  }
+  &_phone{
+    font-family: 'europe-norm', sans-serif;
+    font-size: 11px;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    &:before{
+      background: url("../image/contacts.png") 0px 0px no-repeat #fff;
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 17px;
+      position: absolute;
+      left: -25px;
+      top: 0px;         
+    }
+    @include old-ie{
+      *zoom: expression(
+        this.runtimeStyle.zoom="1",
+        this.appendChild( document.createElement("small") ).className="before"
+      );
+      .before{
+        background: url("../image/contacts.png") 0px 0px no-repeat #fff;
+        width: 16px;
+        height: 17px;         
+        position: absolute;
+        left: 66px;
+        top: 0px;    
+      }
+    }
+  }
+  &_email{
+    font-family: 'europe-norm', sans-serif;
+    font-size: 11px;
+    position: relative;
+    display: inline-block;
+    padding: 8px 0px 0px 0px;
+    &:before{
+      background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 17px;
+      position: absolute;
+      left: -25px;
+      top: 8px;         
+    }
+    @include old-ie{
+      *zoom: expression(
+        this.runtimeStyle.zoom="1",
+        this.appendChild( document.createElement("small") ).className="before"
+      );
+      .before{
+        background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+        width: 16px;
+        height: 17px;         
+        position: absolute;
+        left: 66px;
+        top: 8px;    
+      }
+    }
+  }
+  &_social{
+    overflow: hidden;
+    padding: 13px 0px 0px 66px;
+  }
+  &_vk{
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url("../image/social.png") 0px 0px no-repeat #fff;
+    width: 23px;
+    height: 22px;
+    float: left;
+    @include def-transition(opacity, 0.3s);
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  &_fb{
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url("../image/social.png") -23px 0px no-repeat #fff;
+    width: 23px;
+    height: 22px;
+    float: left;
+    margin-left: 17px;
+    @include def-transition(opacity, 0.3s);
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  &_ok{
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url("../image/social.png") -46px 0px no-repeat #fff;
+    width: 23px;
+    height: 22px;
+    float: left;
+    margin-left: 17px;
+    @include def-transition(opacity, 0.3s);
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+}

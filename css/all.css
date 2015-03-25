@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'europe-reg';
+  src: url("fonts/file_326.eot");
+  src: url("fonts/file_326.eot") format("embedded-opentype"), url("fonts/file_326.woff2") format("woff2"), url("fonts/file_326.woff") format("woff"), url("fonts/file_326.ttf") format("truetype"), url("fonts/file_326.svg#file_326") format("svg");
+}
+@font-face {
+  font-family: 'europe-norm';
+  src: url("fonts/file_5272.eot");
+  src: url("fonts/file_5272.eot") format("embedded-opentype"), url("fonts/file_5272.woff2") format("woff2"), url("fonts/file_5272.woff") format("woff"), url("fonts/file_5272.ttf") format("truetype"), url("fonts/file_5272.svg#file_5272") format("svg");
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #efefef;
+  font-family: 'europe-reg', sans-serif;
+  color: #857a71;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+a:focus {
+  outline: none;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+.inner {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  background-color: #ccc;
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+.main_root {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -158px;
+  clear: both;
+}
+.main_froot {
+  height: 158px;
+}
+.main_inner {
+  padding: 25px 0px 0px 0px;
+}
+.main_logo {
+  display: block;
+  width: 155px;
+  height: 86px;
+  margin: 0px auto 0px auto;
+  background: url(../image/logo.png) no-repeat;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.main_footer {
+  clear: both;
+  position: relative;
+  height: 158px;
+  background-color: #fff;
+  text-align: center;
+}
+.main_phone {
+  font-family: 'europe-norm', sans-serif;
+  font-size: 11px;
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+}
+.main_phone:before {
+  background: url("../image/contacts.png") 0px 0px no-repeat #fff;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+.main_email {
+  font-family: 'europe-norm', sans-serif;
+  font-size: 11px;
+  position: relative;
+  display: inline-block;
+  padding: 8px 0px 0px 0px;
+}
+.main_email:before {
+  background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  left: -25px;
+  top: 8px;
+}
+.main_social {
+  overflow: hidden;
+  padding: 13px 0px 0px 66px;
+}
+.main_vk {
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url("../image/social.png") 0px 0px no-repeat #fff;
+  width: 23px;
+  height: 22px;
+  float: left;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.main_vk:hover {
+  opacity: 0.7;
+}
+.main_fb {
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url("../image/social.png") -23px 0px no-repeat #fff;
+  width: 23px;
+  height: 22px;
+  float: left;
+  margin-left: 17px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.main_fb:hover {
+  opacity: 0.7;
+}
+.main_ok {
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url("../image/social.png") -46px 0px no-repeat #fff;
+  width: 23px;
+  height: 22px;
+  float: left;
+  margin-left: 17px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.main_ok:hover {
+  opacity: 0.7;
+}
+
+.menu_list {
+  padding: 45px 0px 0px 48px;
+}
+.menu_list__l2 {
+  padding: 0px 0px 0px 15px;
+}
+.menu_link {
+  font-size: 14px;
+  color: #857a71;
+  text-decoration: none;
+}
+.menu_link:visited {
+  color: #857a71;
+}
+.menu_link:hover {
+  color: #df1b1b;
+}
+.menu_link:active {
+  color: #857a71;
+}
+.menu_link:focus {
+  color: #857a71;
+}
+.menu_link__active {
+  color: #df1b1b;
+}
+.menu_link__active:visited {
+  color: #df1b1b;
+}
+.menu_link__active:hover {
+  color: #df1b1b;
+}
+.menu_link__active:active {
+  color: #df1b1b;
+}
+.menu_link__active:focus {
+  color: #df1b1b;
+}
+.menu_link__l2 {
+  color: #afa9a5;
+  position: relative;
+}
+.menu_link__l2:visited {
+  color: #afa9a5;
+}
+.menu_link__l2:hover {
+  color: #252525;
+}
+.menu_link__l2:active {
+  color: #afa9a5;
+}
+.menu_link__l2:focus {
+  color: #afa9a5;
+}
+.menu_link__l2__active {
+  color: #252525;
+}
+.menu_link__l2__active:visited {
+  color: #252525;
+}
+.menu_link__l2__active:hover {
+  color: #252525;
+}
+.menu_link__l2__active:active {
+  color: #252525;
+}
+.menu_link__l2__active:focus {
+  color: #252525;
+}
+.menu_link__l2__active:before {
+  content: "/";
+  color: #df1b1b;
+  font-size: 14px;
+  position: absolute;
+  left: -15px;
+  top: -3px;
+}
+
+/*# sourceMappingURL=all.css.map */

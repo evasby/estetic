@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'file_326';
+    src: url('fonts/file_326.eot');
+    src: url('fonts/file_326.eot') format('embedded-opentype'),
+         url('fonts/file_326.woff2') format('woff2'),
+         url('fonts/file_326.woff') format('woff'),
+         url('fonts/file_326.ttf') format('truetype'),
+         url('fonts/file_326.svg#file_326') format('svg');
+}

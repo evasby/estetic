@@ -1,0 +1,52 @@
+.menu{
+  &_list{
+    padding: 45px 0px 0px 48px;
+    &__l2{
+      padding: 0px 0px 0px 15px;
+    }
+  }
+  &_link{
+    //font-family: 'europe-norm', sans-serif;
+    font-size: 14px;
+    @include def-link-colors(#857a71, #df1b1b, #857a71, #857a71, #857a71);
+    text-decoration: none;
+    &__active{
+      @include def-link-colors(#df1b1b, #df1b1b, #df1b1b, #df1b1b, #df1b1b);
+    }
+    &__l2{
+      @include def-link-colors(#afa9a5, #252525, #afa9a5, #afa9a5, #afa9a5);
+      position: relative;
+      
+      &__active{
+        @include def-link-colors(#252525, #252525, #252525, #252525, #252525);
+        &:before{
+          //background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+          content: "/";
+          //font-family: 'europe-norm', sans-serif;
+          color: #df1b1b;
+          font-size: 14px;
+          //display: inline-block;
+          //width: 16px;
+          //height: 17px;
+          position: absolute;
+          left: -15px;
+          top: -3px;         
+        }
+        @include old-ie{
+          *zoom: expression(
+            this.runtimeStyle.zoom="1",
+            this.appendChild( document.createElement("small") ).className="before"
+          );
+          .before{
+            //background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+            //width: 16px;
+            //height: 17px;         
+            position: absolute;
+            left: -15px;
+            top: -3px;    
+          }
+        }
+      }
+    }
+  }
+}
