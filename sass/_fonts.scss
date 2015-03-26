@@ -16,3 +16,14 @@
          url('fonts/file_5272.ttf') format('truetype'),
          url('fonts/file_5272.svg#file_5272') format('svg');
 }
+@font-face {
+    font-family: 'europe';
+    src: url('fonts/europeext-normal_[allfont.ru].eot');
+    src: url('fonts/europeext-normal_[allfont.ru].eot?#iefix') format('embedded-opentype'),
+         url('fonts/europeext-normal_[allfont.ru].woff2') format('woff2'),
+         url('fonts/europeext-normal_[allfont.ru].woff') format('woff'),
+         url('fonts/europeext-normal_[allfont.ru].ttf') format('truetype'),
+         url('fonts/europeext-normal_[allfont.ru].svg#europeextnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,27 @@
+.info{
+  overflow: hidden;
+  padding: 18px 0px 0px 0px;
+  &_left{
+    float: left;
+    width: 33.33%;
+    & p:first-child{
+      font-size: 16px;
+    }
+  }
+  &_center{
+    float: left;
+    width: 33.33%;
+  }
+  &_right{
+    float: left;
+    width: 33.33%;
+    & p:first-child{
+      font-size: 16px;
+    }
+  }
+  p{
+    font-family: 'europe';
+    padding: 0px 0px 0px 33px;
+    font-size: 12px;
+  }
+}

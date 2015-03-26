@@ -1,0 +1,32 @@
+$footer: 158px;
+.contacts{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  &_root{
+    height: 100%;
+    margin-bottom: -$footer;
+    clear: both;
+  }
+  &_froot{
+    height: $footer;
+    width: 100%;
+  }
+  &_footer {
+    clear: both;
+    position: relative;
+    height: $footer;
+    background-color: #efefef;
+  }
+  &_map{
+    height: 100%;
+    background-color: #bbb;
+    ymaps{
+      //width: 100%;
+      //height: 100%;
+    }
+  }
+}
+.map{
+  height: 85.5%;
+}

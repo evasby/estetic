@@ -26,7 +26,8 @@ body{
   //color: #523322;
   //line-height: 1.2;
   background-color: #efefef;
-  font-family: 'europe-reg', sans-serif;
+  //font-family: 'europe-reg', sans-serif;
+  font-family: 'europe', sans-serif;
   color: #857a71;
   font-size: 14px;
   line-height: 1.6;
@@ -55,3 +56,7 @@ h2{
 @import "main";
 @import "menu";
 @import "content";
+@import "slider";
+@import "contacts";
+@import "info";
+@import "catalog";

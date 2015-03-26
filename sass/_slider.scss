@@ -1,0 +1,41 @@
+$footer: 158px;
+.slider{
+  height: 100%;
+  position: relative;
+  img{
+    height: 100%;
+  }
+  &_footer {
+    position: absolute;
+    height: $footer;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+  }
+  &_wrap{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #332d29;
+    opacity: 0.75;
+    z-index: 1;
+  }
+  &_title{
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-size: 60px;
+    line-height: 1;
+    margin: 12px 0px 0px 100px;
+  }
+  &_text{
+    color: #bbb3ae;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    max-width: 750px;
+    margin: 10px 0px 0px 206px;
+  }
+}

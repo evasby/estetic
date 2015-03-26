@@ -1,6 +1,6 @@
 $footer: 158px;
 .main{
-  background-color: #ccc;
+  //background-color: #ccc;
   width: 250px;
   height: 100%;
   float: left;
@@ -31,17 +31,18 @@ $footer: 158px;
     clear: both;
     position: relative;
     height: $footer;
-    background-color: #fff;
+    //background-color: #fff;
     text-align: center;
   }
   &_phone{
-    font-family: 'europe-norm', sans-serif;
+    //font-family: 'europe-norm', sans-serif;
+    font-family: 'europe', sans-serif;
     font-size: 11px;
     position: relative;
     display: inline-block;
     margin-top: 40px;
     &:before{
-      background: url("../image/contacts.png") 0px 0px no-repeat #fff;
+      background: url("../image/contacts.png") 0px 0px no-repeat;
       content: "";
       display: inline-block;
       width: 16px;
@@ -56,7 +57,7 @@ $footer: 158px;
         this.appendChild( document.createElement("small") ).className="before"
       );
       .before{
-        background: url("../image/contacts.png") 0px 0px no-repeat #fff;
+        background: url("../image/contacts.png") 0px 0px no-repeat;
         width: 16px;
         height: 17px;         
         position: absolute;
@@ -72,7 +73,7 @@ $footer: 158px;
     display: inline-block;
     padding: 8px 0px 0px 0px;
     &:before{
-      background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+      background: url("../image/contacts.png") -16px 0px no-repeat;
       content: "";
       display: inline-block;
       width: 16px;
@@ -87,7 +88,7 @@ $footer: 158px;
         this.appendChild( document.createElement("small") ).className="before"
       );
       .before{
-        background: url("../image/contacts.png") -16px 0px no-repeat #fff;
+        background: url("../image/contacts.png") -16px 0px no-repeat;
         width: 16px;
         height: 17px;         
         position: absolute;
@@ -105,7 +106,7 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") 0px 0px no-repeat #fff;
+    background: url("../image/social.png") 0px 0px no-repeat;
     width: 23px;
     height: 22px;
     float: left;
@@ -119,7 +120,7 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") -23px 0px no-repeat #fff;
+    background: url("../image/social.png") -23px 0px no-repeat;
     width: 23px;
     height: 22px;
     float: left;
@@ -134,7 +135,7 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") -46px 0px no-repeat #fff;
+    background: url("../image/social.png") -46px 0px no-repeat;
     width: 23px;
     height: 22px;
     float: left;

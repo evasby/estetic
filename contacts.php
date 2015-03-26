@@ -2,9 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Estetic</title>
+  <title>Estetic - контакты</title>
   <link rel="stylesheet" type="text/css" href="css/all.css">
   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script type="text/javascript" src="js/map.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -28,7 +30,7 @@
         <nav class="menu">
           <ul class="menu_list">
             <li class="menu_item">
-              <a href="index.php" class="menu_link menu_link__active">Главная</a>
+              <a href="index.php" class="menu_link">Главная</a>
             </li>
             <li class="menu_item">
               <a href="catalog.php" class="menu_link">Мебель</a>
@@ -43,7 +45,7 @@
               <a href="" class="menu_link">Блог</a>
             </li>
             <li class="menu_item">
-              <a href="contacts.php" class="menu_link">Контакты</a>
+              <a href="contacts.php" class="menu_link menu_link__active">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -65,12 +67,35 @@
       </div>
     </section>
     <section class="content">
-      <div class="slider">
-        <img src="image/slide1.jpg" alt="">
-        <div class="slider_footer">
-          <div class="slider_wrap"></div>
-          <div class="slider_title">Лампа «Volcano»</div>
-          <div class="slider_text">Лампа, декор которой напоминает застывшую лаву. Теплый свет создает уютную атмосферу за столом.</div>
+      <div class="contacts">
+        <div class="contacts_root">
+          <div class="map" id="map">
+          <!--<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=0pOWQeuoSStWtMeR3s3ll-38v6l_LUKP"></script>-->
+          <!--<div class="contacts_map">-->
+            <!--<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=0pOWQeuoSStWtMeR3s3ll-38v6l_LUKP"></script>-->
+          <!--</div>-->
+          </div>
+        </div>
+        <div class="contacts_footer">
+          <div class="info">
+            <div class="info_left">
+              <p>Понедельник - Пятница</p>
+              <p>с 9:00 до 19:00</p>
+              <p>Суббота, воскресенье - выходные</p>
+            </div>
+            <div class="info_center">
+              <p>Тел./факс: (017) 393 61 38</p>
+              <p>Velcom: (029) 725 15 59</p>
+              <p>МТС: (029) 764 38 54</p>
+              <p>Scype: Estetic_life</p>
+            </div>
+            <div class="info_right">
+              <p>ООО «Эстетик Лайфс»</p>
+              <p>Республика Беларусь, 220036, г. Минск</p>
+              <p>пер. Северный, д.13, корп. 3, офис 5А</p>
+              <p>Email: esteticlifes@gmail.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
