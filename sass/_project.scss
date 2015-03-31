@@ -1,0 +1,74 @@
+.project{
+  height: 100%;
+  overflow-y: scroll;
+  padding: 25px 0px 25px 0px;
+  //background-color: #ccc;
+  //overflow: hidden;
+  position: relative;
+  &_left{
+    float: left;
+    width: 337px;
+    height: 100%;
+  }
+  &_right{
+    //height: 100%;
+    margin: 0px 0px 0px 371px;
+    img{
+      width: auto;
+      height: 100%;
+      display: block;
+    }
+  }
+  &_image{
+    padding: 0px 35px 0px 0px;
+    height: 100%;
+  }
+  &_link{
+    position: absolute;
+    bottom: 28px;
+    left: 114px;
+    font-size: 18px;
+    @include def-link-colors(#5b4e44, #5b4e44, #5b4e44, #5b4e44, #5b4e44);
+    text-decoration: none;
+    &:after{
+      background: url("../image/dl.png") 0px 0px no-repeat;
+      content: "";
+      display: inline-block;
+      width: 23px;
+      height: 21px;
+      position: absolute;
+      right: -30px;
+      top: 5px;         
+    }
+    @include old-ie{
+      *zoom: expression(
+        this.runtimeStyle.zoom="1",
+        this.appendChild( document.createElement("small") ).className="after"
+      );
+      .after{
+        background: url("../image/dl.png") 0px 0px no-repeat;
+        width: 23px;
+        height: 21px;
+        position: absolute;
+        right: -30px;
+        top: 5px;         
+      }
+    }
+  }
+  &_title{
+    font-family: 'myriad';
+    color: #5b4e44;
+    font-size: 24px;
+    text-align: right;
+    line-height: 1;
+  }
+  &_text{
+    padding-top: 44px;
+    p{
+      margin-bottom: 30px;
+      color: #857a71;
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+}

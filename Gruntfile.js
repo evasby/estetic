@@ -59,7 +59,7 @@ module.exports = function(grunt) {
                 //src: ['css/all.css', 'css/all-old-ie.css', 'css/all.css.map', 'css/all-old-ie.css.map'],
                 src: ['css/all.css', 'css/all-old-ie.css'],
                 //dest: 'www/slav.webformat.by/sites/all/themes/slav/css',
-                dest: 'www/estetic.webformat.by/sites/all/themes/estetic/css',
+                dest: 'www/esteticd.webformat.by/sites/all/themes/estetic/css',
                 exclusions: ['css/**/.DS_Store', 'css/**/Thumbs.db', 'dist/tmp']
             }
         },
@@ -76,8 +76,8 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: ['sass/*.scss'],
-                //tasks: ['sass', 'ftp_upload'],
-                tasks: ['sass'],
+                tasks: ['sass', 'ftp_upload'],
+                //tasks: ['sass'],
                 options: {
                     spawn: false,
                 }

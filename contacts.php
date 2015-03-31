@@ -39,10 +39,7 @@
               <a href="" class="menu_link">Освещение</a>
             </li>
             <li class="menu_item">
-              <a href="" class="menu_link">О нас</a>
-            </li>
-            <li class="menu_item">
-              <a href="" class="menu_link">Блог</a>
+              <a href="blog.php" class="menu_link">Блог</a>
             </li>
             <li class="menu_item">
               <a href="contacts.php" class="menu_link menu_link__active">Контакты</a>

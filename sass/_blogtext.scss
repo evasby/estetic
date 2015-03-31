@@ -1,0 +1,44 @@
+.blogtext{
+  padding: 25px 0px 0px 0px;
+  overflow: hidden;
+  &_left{
+    float: left;
+    width: 680px;
+    height: 100%;
+  }
+  &_right{
+    margin: 0px 0px 0px 714px;
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &_image{
+    padding: 0px 35px 0px 0px;
+    height: 100%;
+  }
+  &_title{
+    overflow: hidden;
+    padding: 0px 0px 16px 0px;
+    h1{
+      float: right;
+      text-align: right;
+      width: 315px;
+      color: #5b4e44;
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+  &_author{
+    color: #5b4e44;
+    text-align: right;
+    font-size: 16px;
+    padding: 0px 0px 17px 0px;
+  }
+  &_text{
+    p{
+      margin-bottom: 20px;
+    }
+  }
+}

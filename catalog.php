@@ -34,25 +34,25 @@
               <a href="catalog.php" class="menu_link menu_link__active">Мебель</a>
               <ul class="menu_list menu_list__l2">
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Комоды</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Комоды</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Тумбочки</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Тумбочки</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Столы</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Столы</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Кровати</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Кровати</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Стулья</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Стулья</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2">Табурет</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2">Табурет</a>
                 </li>
                 <li class="menu_item menu_item__l2">
-                  <a href="" class="menu_link menu_link__l2 menu_link__l2__active">Офисная мебель</a>
+                  <a href="catalog.php" class="menu_link menu_link__l2 menu_link__l2__active">Офисная мебель</a>
                 </li>
               </ul>
             </li>
@@ -60,10 +60,7 @@
               <a href="" class="menu_link">Освещение</a>
             </li>
             <li class="menu_item">
-              <a href="" class="menu_link">О нас</a>
-            </li>
-            <li class="menu_item">
-              <a href="" class="menu_link">Блог</a>
+              <a href="blog.php" class="menu_link">Блог</a>
             </li>
             <li class="menu_item">
               <a href="contacts.php" class="menu_link">Контакты</a>
@@ -163,79 +160,79 @@
         </div>
       </div>-->
       <div class="catalog">
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/1.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/2.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/3.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/4.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/5.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/6.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/7.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/8.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/9.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/10.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/11.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/12.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/1.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/2.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/3.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/4.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/5.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/6.jpg" alt="">
         </a>
-        <a href="" class="catalog_link">
+        <a href="project.php" class="catalog_link">
           <div class="catalog_text"><p>Cloud Mone</p><p>1857</p><p>la France</p></div>
           <img src="image/prod/7.jpg" alt="">
         </a>
