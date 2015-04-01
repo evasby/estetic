@@ -77,6 +77,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url("fonts/MyriadProRegular.eot");
   src: url("fonts/MyriadProRegular.eot") format("embedded-opentype"), url("fonts/MyriadProRegular.woff2") format("woff2"), url("fonts/MyriadProRegular.woff") format("woff"), url("fonts/MyriadProRegular.ttf") format("truetype"), url("fonts/MyriadProRegular.svg#MyriadProRegular") format("svg");
 }
+#bxslider_views_slideshow_main_slider-block {
+  height: 100%;
+}
+
 #field_gallery {
   height: 100%;
 }
@@ -87,6 +91,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .bxslider li {
   height: 94% !important;
+}
+
+.front .bxslider li {
+  height: 100% !important;
 }
 
 .region-content .bx-wrapper ul {
@@ -154,6 +162,10 @@ div.bx-wrapper img {
   -o-transform: translatez(0);
   transform: translatez(0);
   height: 100% !important;
+}
+
+.front .bx-wrapper .bx-viewport, .node-type-blog .bx-wrapper .bx-viewport {
+  left: 0px;
 }
 
 .bx-wrapper .bx-pager,
@@ -384,12 +396,14 @@ b, strong {
   text-align: center;
 }
 .main_phone {
-  font-family: 'europe', sans-serif;
-  font-size: 11px;
   position: relative;
   display: inline-block;
   margin-top: 40px;
   *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.main_phone p {
+  font-family: 'europe', sans-serif;
+  font-size: 14px;
 }
 .main_phone:before {
   background: url("../image/contacts.png") 0px 0px no-repeat;
@@ -410,12 +424,32 @@ b, strong {
   top: 0px;
 }
 .main_email {
-  font-family: 'europe-norm', sans-serif;
-  font-size: 11px;
   position: relative;
   display: inline-block;
   padding: 8px 0px 0px 0px;
   *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.main_email P {
+  line-height: 1;
+}
+.main_email a {
+  font-family: 'europe', sans-serif;
+  font-size: 14px;
+  color: #857a71;
+  text-decoration: none;
+  line-height: 1.6;
+}
+.main_email a:visited {
+  color: #857a71;
+}
+.main_email a:hover {
+  color: #857a71;
+}
+.main_email a:active {
+  color: #857a71;
+}
+.main_email a:focus {
+  color: #857a71;
 }
 .main_email:before {
   background: url("../image/contacts.png") -16px 0px no-repeat;
@@ -444,9 +478,9 @@ b, strong {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: url("../image/social.png") 0px 0px no-repeat;
+  background: url("../image/social2.png") 0px 0px no-repeat;
   width: 23px;
-  height: 22px;
+  height: 23px;
   float: left;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
@@ -462,9 +496,9 @@ b, strong {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: url("../image/social.png") -23px 0px no-repeat;
+  background: url("../image/social2.png") -23px 0px no-repeat;
   width: 23px;
-  height: 22px;
+  height: 23px;
   float: left;
   margin-left: 17px;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -481,9 +515,9 @@ b, strong {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: url("../image/social.png") -46px 0px no-repeat;
+  background: url("../image/social2.png") -46px 0px no-repeat;
   width: 23px;
-  height: 22px;
+  height: 23px;
   float: left;
   margin-left: 17px;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -677,6 +711,24 @@ b, strong {
 .info_right p:first-child {
   font-size: 16px;
 }
+.info_right a {
+  color: #857a71;
+  font-family: 'europe';
+  font-size: 12px;
+  text-decoration: none;
+}
+.info_right a:visited {
+  color: #857a71;
+}
+.info_right a:hover {
+  color: #857a71;
+}
+.info_right a:active {
+  color: #857a71;
+}
+.info_right a:focus {
+  color: #857a71;
+}
 .info p {
   font-family: 'europe';
   padding: 0px 0px 0px 33px;
@@ -846,6 +898,7 @@ b, strong {
   font-size: 24px;
   color: #5b4e44;
   line-height: 1;
+  height: 48px;
 }
 .blog_author {
   text-align: right;
@@ -858,7 +911,7 @@ b, strong {
   padding: 0px 30px 0px 0px;
   font-size: 14px;
   color: #857a71;
-  height: 175px;
+  height: 151px;
 }
 .blog_layout {
   height: 25px;

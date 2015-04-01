@@ -35,12 +35,14 @@ $footer: 158px;
     text-align: center;
   }
   &_phone{
-    //font-family: 'europe-norm', sans-serif;
-    font-family: 'europe', sans-serif;
-    font-size: 11px;
-    position: relative;
-    display: inline-block;
-    margin-top: 40px;
+      position: relative;
+      display: inline-block;
+      margin-top: 40px;
+    p{
+      //font-family: 'europe-norm', sans-serif;
+      font-family: 'europe', sans-serif;
+      font-size: 14px;
+    }
     &:before{
       background: url("../image/contacts.png") 0px 0px no-repeat;
       content: "";
@@ -67,11 +69,19 @@ $footer: 158px;
     }
   }
   &_email{
-    font-family: 'europe-norm', sans-serif;
-    font-size: 11px;
     position: relative;
     display: inline-block;
     padding: 8px 0px 0px 0px;
+    P{
+      line-height: 1;
+    }
+    a{
+      font-family: 'europe', sans-serif;
+      font-size: 14px;
+      @include def-link-colors(#857a71, #857a71, #857a71, #857a71, #857a71);
+      text-decoration: none;
+      line-height: 1.6;
+    }
     &:before{
       background: url("../image/contacts.png") -16px 0px no-repeat;
       content: "";
@@ -106,9 +116,9 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") 0px 0px no-repeat;
+    background: url("../image/social2.png") 0px 0px no-repeat;
     width: 23px;
-    height: 22px;
+    height: 23px;
     float: left;
     @include def-transition(opacity, 0.3s);
     &:hover{
@@ -120,9 +130,9 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") -23px 0px no-repeat;
+    background: url("../image/social2.png") -23px 0px no-repeat;
     width: 23px;
-    height: 22px;
+    height: 23px;
     float: left;
     margin-left: 17px;
     @include def-transition(opacity, 0.3s);
@@ -135,9 +145,9 @@ $footer: 158px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../image/social.png") -46px 0px no-repeat;
+    background: url("../image/social2.png") -46px 0px no-repeat;
     width: 23px;
-    height: 22px;
+    height: 23px;
     float: left;
     margin-left: 17px;
     @include def-transition(opacity, 0.3s);

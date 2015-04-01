@@ -1,3 +1,6 @@
+#bxslider_views_slideshow_main_slider-block{
+  height: 100%;
+}
 #field_gallery{
   height: 100%;
 }
@@ -6,6 +9,9 @@
 }
 .bxslider li{
   height: 94%!important;
+}
+.front .bxslider li {
+  height: 100%!important;
 }
 
 .region-content .bx-wrapper ul {
@@ -82,6 +88,9 @@ div.bx-wrapper img {
       transform: translatez(0);
 
   height: 100%!important;
+}
+.front .bx-wrapper .bx-viewport, .node-type-blog .bx-wrapper .bx-viewport{
+  left: 0px;
 }
 
 .bx-wrapper .bx-pager,
