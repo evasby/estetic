@@ -16,6 +16,7 @@
     left: 0px;
     width: 100%;
     opacity: 0;
+    z-index: 2;
     @include def-transition(opacity, 0.3s);
     .catalog_link:hover &{
       opacity: 1;
@@ -25,6 +26,18 @@
       font-size: 24px;
       color: #ffffff;
       line-height: 1.3;
+    }
+  }
+  &_shadow {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    @include def-transition(opacity, 0.3s);
+    .catalog_link:hover & {
+      opacity: 0.4;
     }
   }
 }
