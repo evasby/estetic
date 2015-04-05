@@ -370,11 +370,11 @@ b, strong {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -158px;
+  margin-bottom: -268px;
   clear: both;
 }
 .main_froot {
-  height: 158px;
+  height: 268px;
 }
 .main_inner {
   padding: 25px 0px 0px 0px;
@@ -392,7 +392,7 @@ b, strong {
 .main_footer {
   clear: both;
   position: relative;
-  height: 158px;
+  height: 268px;
   text-align: center;
 }
 .main_phone {
@@ -925,6 +925,17 @@ b, strong {
 }
 .blogtext_text p {
   margin-bottom: 20px;
+}
+
+.wf {
+  display: block;
+  margin: 73px 0px 0px 42px;
+  background: url("../image/wf.png") no-repeat;
+  width: 146px;
+  height: 35px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=all.css.map */
