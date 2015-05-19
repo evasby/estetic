@@ -5,6 +5,9 @@
   &_item{
     overflow: hidden;
     margin: 0px 0px 41px 0px;
+    @include respond(1280){
+      padding-bottom: 20px;
+    }
   }
   &_link{
     position: absolute;
@@ -15,9 +18,15 @@
   &_left{
     margin-right: 430px;
     position: relative;
+    @include respond(1024){
+      margin: 10px 0px 0px 0px;
+    }
   }
   &_right{
     float: right;
+    @include respond(1024){
+      float: none;
+    }
   }
   &_image{
     width: 430px;
@@ -34,6 +43,10 @@
     color: #5b4e44;
     line-height: 1;
     height: 48px;
+    @include respond(1280){
+      height: auto;
+      padding: 0px 30px 10px 0px;
+    }
   }
   &_author{
     text-align: right;
@@ -41,12 +54,18 @@
     font-size: 16px;
     color: #5b4e44;
     line-height: 1;
+    @include respond(1280){
+      padding: 0px 30px 10px 0px;
+    }
   }
   &_text{
     padding: 0px 30px 0px 0px;
     font-size: 14px;
     color: #857a71;
     height: 151px;
+    @include respond(1280){
+      height: auto;
+    }
   }
   &_layout{
     height: 25px;

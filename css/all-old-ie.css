@@ -350,6 +350,18 @@ a:focus {
   outline: none;
 }
 
+ul:focus {
+  outline: none;
+}
+
+li:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 b, strong {
   font-weight: bold;
 }
@@ -398,7 +410,7 @@ b, strong {
 .main_phone {
   position: relative;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 90px;
   *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
 }
 .main_phone p {
@@ -537,6 +549,7 @@ b, strong {
   padding: 0px 0px 0px 15px;
 }
 .menu_link {
+  cursor: pointer;
   font-size: 14px;
   color: #857a71;
   text-decoration: none;
@@ -939,12 +952,12 @@ b, strong {
   overflow: hidden;
 }
 .blogtext_left {
-  float: left;
-  width: 680px;
   height: 100%;
+  margin: 0px 620px 0px 0px;
 }
 .blogtext_right {
-  margin: 0px 0px 0px 714px;
+  float: right;
+  width: 600px;
 }
 .blogtext_right img {
   width: 100%;
@@ -979,7 +992,7 @@ b, strong {
 
 .wf {
   display: block;
-  margin: 73px 0px 0px 42px;
+  margin: 23px 0px 0px 42px;
   background: url("../image/wf.png") no-repeat;
   width: 146px;
   height: 35px;

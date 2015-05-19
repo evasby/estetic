@@ -6,6 +6,7 @@
     }
   }
   &_link{
+    cursor: pointer;
     //font-family: 'europe-norm', sans-serif;
     font-size: 14px;
     @include def-link-colors(#857a71, #df1b1b, #857a71, #857a71, #857a71);

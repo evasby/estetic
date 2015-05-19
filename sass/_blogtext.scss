@@ -2,12 +2,28 @@
   padding: 25px 0px 0px 0px;
   overflow: hidden;
   &_left{
-    float: left;
-    width: 680px;
+    //float: left;
+    //width: 680px;
     height: 100%;
+    margin: 0px 620px 0px 0px;
+    @include respond(1280){
+      margin: 0px 420px 0px 0px;
+    }
+    @include respond(1024){
+      margin: 20px 20px 0px 0px;
+    }
   }
   &_right{
-    margin: 0px 0px 0px 714px;
+    float: right;
+    width: 600px;
+    @include respond(1280){
+      width: 400px;
+    }
+    @include respond(1024){
+      float: none;
+      width: 400px;
+    }
+    //margin: 0px 0px 0px 714px;
     img{
       width: 100%;
       height: auto;

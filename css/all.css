@@ -350,6 +350,18 @@ a:focus {
   outline: none;
 }
 
+ul:focus {
+  outline: none;
+}
+
+li:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 b, strong {
   font-weight: bold;
 }
@@ -398,7 +410,7 @@ b, strong {
 .main_phone {
   position: relative;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 .main_phone p {
   font-family: 'europe', sans-serif;
@@ -519,6 +531,7 @@ b, strong {
   padding: 0px 0px 0px 15px;
 }
 .menu_link {
+  cursor: pointer;
   font-size: 14px;
   color: #857a71;
   text-decoration: none;
@@ -843,6 +856,11 @@ b, strong {
   overflow: hidden;
   margin: 0px 0px 41px 0px;
 }
+@media only screen and (max-width: 1279px) {
+  .blog_item {
+    padding-bottom: 20px;
+  }
+}
 .blog_link {
   position: absolute;
   right: 31px;
@@ -865,8 +883,18 @@ b, strong {
   margin-right: 430px;
   position: relative;
 }
+@media only screen and (max-width: 1023px) {
+  .blog_left {
+    margin: 10px 0px 0px 0px;
+  }
+}
 .blog_right {
   float: right;
+}
+@media only screen and (max-width: 1023px) {
+  .blog_right {
+    float: none;
+  }
 }
 .blog_image {
   width: 430px;
@@ -884,6 +912,12 @@ b, strong {
   line-height: 1;
   height: 48px;
 }
+@media only screen and (max-width: 1279px) {
+  .blog_title {
+    height: auto;
+    padding: 0px 30px 10px 0px;
+  }
+}
 .blog_author {
   text-align: right;
   padding: 0px 30px 25px 0px;
@@ -891,11 +925,21 @@ b, strong {
   color: #5b4e44;
   line-height: 1;
 }
+@media only screen and (max-width: 1279px) {
+  .blog_author {
+    padding: 0px 30px 10px 0px;
+  }
+}
 .blog_text {
   padding: 0px 30px 0px 0px;
   font-size: 14px;
   color: #857a71;
   height: 151px;
+}
+@media only screen and (max-width: 1279px) {
+  .blog_text {
+    height: auto;
+  }
 }
 .blog_layout {
   height: 25px;
@@ -906,12 +950,33 @@ b, strong {
   overflow: hidden;
 }
 .blogtext_left {
-  float: left;
-  width: 680px;
   height: 100%;
+  margin: 0px 620px 0px 0px;
+}
+@media only screen and (max-width: 1279px) {
+  .blogtext_left {
+    margin: 0px 420px 0px 0px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .blogtext_left {
+    margin: 20px 20px 0px 0px;
+  }
 }
 .blogtext_right {
-  margin: 0px 0px 0px 714px;
+  float: right;
+  width: 600px;
+}
+@media only screen and (max-width: 1279px) {
+  .blogtext_right {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .blogtext_right {
+    float: none;
+    width: 400px;
+  }
 }
 .blogtext_right img {
   width: 100%;
@@ -946,7 +1011,7 @@ b, strong {
 
 .wf {
   display: block;
-  margin: 73px 0px 0px 42px;
+  margin: 23px 0px 0px 42px;
   background: url("../image/wf.png") no-repeat;
   width: 146px;
   height: 35px;
